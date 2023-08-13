@@ -12,9 +12,9 @@ Ros Version : Ros2 Humble
 
 개발 계획:
 
-1. Odrive <-> Ros 연동
-2. U2D2 로 양팔 제어
-3. 목제어랑 연동
+
+1. U2D2 로 회전제어
+2. vesc 와 연동
 And so on..
 
 
