@@ -42,7 +42,7 @@ install(
 
 install(
   PROGRAMS
-  scripts/robot_control.py
+  scripts/four_ws_control.py
   launch/four_ws_control.launch.py
   DESTINATION lib/${PROJECT_NAME}
 )

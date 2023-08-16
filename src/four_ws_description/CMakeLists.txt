@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(rosbot_description)
+project(four_ws_description)
 
 find_package(ament_cmake REQUIRED)
 
