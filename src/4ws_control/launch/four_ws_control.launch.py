@@ -57,6 +57,12 @@ def generate_launch_description():
                 {"robot_description": robot_description_config.toxml()}],
             output="screen",
         ),
+        
+        Node(
+        package = "joy",
+        executable = "joy_node"
+        ),
+
 
         DeclareLaunchArgument(
             'use_sim_time',
