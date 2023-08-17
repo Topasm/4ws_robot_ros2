@@ -4,7 +4,7 @@ project(four_ws_description)
 find_package(ament_cmake REQUIRED)
 
 install(
-  DIRECTORY config rviz gazebo ros2_control urdf world map
+  DIRECTORY config rviz gazebo ros2_control urdf worlds map
   DESTINATION share/${PROJECT_NAME}
 )
 

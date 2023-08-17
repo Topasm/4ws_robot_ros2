@@ -3,10 +3,8 @@ import os
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch_ros.actions import Node
-
-
+from launch.actions import IncludeLaunchDescription, ExecuteProcess
 from ament_index_python.packages import get_package_share_directory
-
 from launch import LaunchDescription
 
 
@@ -17,7 +15,7 @@ def generate_launch_description():
     robot_name = "four_ws"
     package_name = robot_name + "_description"
     robot_description = os.path.join(get_package_share_directory(
-    package_name), "ros2_control", robot_name + ".ros2_control.xacro")
+    package_name), "urdf", robot_name + ".urdf.xacro")
     robot_description_config = xacro.process_file(robot_description)
 
     controller_config = os.path.join(
@@ -25,48 +23,62 @@ def generate_launch_description():
             package_name), "config", "controllers.yaml"
     )
 
-    return LaunchDescription([
+    four_ws_control_node = Node(package='four_ws_control', executable='four_ws_control.py', output='screen')
+    load_description = Node(
+            package="controller_manager",
+            executable="ros2_control_node",
+            parameters=[
+                {"robot_description": robot_description_config.toxml()}, controller_config],
+            output="screen",
+        )
 
-
-        Node(
+    load_state_broadcaster = Node(
             package="controller_manager",
             executable="spawner",
             arguments=["joint_state_broadcaster", "--controller-manager", "/controller_manager"],
             output="screen",
-        ),
+        )
 
-        Node(
+    load_velocity_controller = Node(
             package="controller_manager",
             executable="spawner",
             arguments=["velocity_controller", "-c", "/controller_manager"],
             output="screen",
-        ),
+        )
 
-        Node(
+    load_trajectory_controller = Node(
             package="controller_manager",
             executable="spawner",
             arguments=["joint_trajectory_controller", "-c", "/controller_manager"],
             output="screen",
-        ),
-
-        Node(
+        )
+    
+    load_statpub = Node(
             package="robot_state_publisher",
             executable="robot_state_publisher",
             name="robot_state_publisher",
             parameters=[
                 {"robot_description": robot_description_config.toxml()}],
             output="screen",
-        ),
-        
-        Node(
+        )
+ 
+
+
+    joy_node = Node(
         package = "joy",
         executable = "joy_node"
-        ),
+        )
 
+    nodes = [
+        joy_node,
+        load_description,
+        load_state_broadcaster,
+        load_velocity_controller,
+        load_trajectory_controller,
+        load_statpub,
+        four_ws_control_node
+    ]
+    
 
-        DeclareLaunchArgument(
-            'use_sim_time',
-            default_value='false',
-            description='Use simulation (Gazebo) clock if true'),
-        Node(package='four_ws_control', executable='four_ws_control.py', output='screen'),
-    ])
+    return LaunchDescription(nodes)
+
