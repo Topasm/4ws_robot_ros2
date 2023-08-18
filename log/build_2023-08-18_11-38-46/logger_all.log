@@ -1,0 +1,351 @@
+[0.203s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.203s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f58b00369e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f58b00b17e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f58b00b17e0>>)
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.217s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/drcl/Desktop/drcl/4ws_robot_ros2'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extensions ['ignore', 'ignore_ament_install']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extension 'ignore'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extension 'ignore_ament_install'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extensions ['colcon_pkg']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extension 'colcon_pkg'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extensions ['colcon_meta']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extension 'colcon_meta'
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extensions ['ros']
+[0.226s] Level 1:colcon.colcon_core.package_identification:_identify(src/4ws_control) by extension 'ros'
+[0.228s] DEBUG:colcon.colcon_core.package_identification:Package 'src/4ws_control' with type 'ros.ament_cmake' and name 'four_ws_control'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extension 'colcon_meta'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extensions ['ros']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/dynamixel_hwi) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/dynamixel_hwi' with type 'ros.ament_cmake' and name 'dynamixel_hardware'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extensions ['colcon_pkg']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extension 'colcon_pkg'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extensions ['colcon_meta']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/four_ws_description) by extension 'ros'
+[0.229s] DEBUG:colcon.colcon_core.package_identification:Package 'src/four_ws_description' with type 'ros.ament_cmake' and name 'four_ws_description'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ignore_ament_install'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extensions ['ignore', 'ignore_ament_install']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'ignore'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'ignore_ament_install'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extensions ['colcon_pkg']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'colcon_pkg'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extensions ['colcon_meta']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'colcon_meta'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extensions ['ros']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'ros'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extensions ['cmake', 'python']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'cmake'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'python'
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extensions ['python_setup_py']
+[0.230s] Level 1:colcon.colcon_core.package_identification:_identify(src/gazebo_simulation/launch) by extension 'python_setup_py'
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.246s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 316 installed packages in /opt/ros/humble
+[0.247s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'dynamixel_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.286s] DEBUG:colcon.colcon_core.verb:Building package 'dynamixel_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware', 'merge_install': False, 'path': '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/dynamixel_hwi', 'symlink_install': False, 'test_result_base': None}
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'cmake_target' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.286s] Level 5:colcon.colcon_core.verb:set package 'four_ws_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'four_ws_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description', 'merge_install': False, 'path': '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/four_ws_description', 'symlink_install': False, 'test_result_base': None}
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.287s] Level 5:colcon.colcon_core.verb:set package 'four_ws_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.287s] DEBUG:colcon.colcon_core.verb:Building package 'four_ws_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control', 'merge_install': False, 'path': '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/4ws_control', 'symlink_install': False, 'test_result_base': None}
+[0.288s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.290s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.290s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/dynamixel_hwi' with build type 'ament_cmake'
+[0.290s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/dynamixel_hwi'
+[0.292s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.293s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.293s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.295s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/four_ws_description' with build type 'ament_cmake'
+[0.295s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/four_ws_description'
+[0.296s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.296s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.302s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware -- -j16 -l16
+[0.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description -- -j16 -l16
+[0.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description -- -j16 -l16
+[0.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description
+[0.345s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware -- -j16 -l16
+[0.349s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_description)
+[0.350s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description' for CMake module files
+[0.353s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description' for CMake config files
+[0.354s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_description', 'cmake_prefix_path')
+[0.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/hook/cmake_prefix_path.ps1'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/hook/cmake_prefix_path.dsv'
+[0.355s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/hook/cmake_prefix_path.sh'
+[0.355s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/bin'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/lib/pkgconfig/four_ws_description.pc'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/lib/python3.10/site-packages'
+[0.356s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/bin'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.ps1'
+[0.357s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.dsv'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.sh'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.bash'
+[0.358s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.zsh'
+[0.359s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/colcon-core/packages/four_ws_description)
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware
+[0.366s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[0.368s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware' for CMake module files
+[0.368s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware
+[0.368s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware' for CMake config files
+[0.368s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[0.369s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[0.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[0.370s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib'
+[0.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[0.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[0.371s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/bin'
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib/python3.10/site-packages'
+[0.372s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/bin'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[0.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[0.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[0.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_description)
+[0.376s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description' for CMake module files
+[0.377s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description' for CMake config files
+[0.377s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_description', 'cmake_prefix_path')
+[0.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/hook/cmake_prefix_path.ps1'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/hook/cmake_prefix_path.dsv'
+[0.378s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/hook/cmake_prefix_path.sh'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/bin'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/lib/pkgconfig/four_ws_description.pc'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/lib/python3.10/site-packages'
+[0.378s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/bin'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.ps1'
+[0.379s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.dsv'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.sh'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.bash'
+[0.380s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/four_ws_description/package.zsh'
+[0.380s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_description/share/colcon-core/packages/four_ws_description)
+[0.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(dynamixel_hardware)
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware' for CMake module files
+[0.391s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware' for CMake config files
+[0.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'cmake_prefix_path')
+[0.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.dsv'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/cmake_prefix_path.sh'
+[0.393s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib'
+[0.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('dynamixel_hardware', 'ld_library_path_lib')
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.ps1'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/hook/ld_library_path_lib.sh'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/bin'
+[0.394s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib/pkgconfig/dynamixel_hardware.pc'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib/python3.10/site-packages'
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/bin'
+[0.395s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.sh'
+[0.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.bash'
+[0.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.zsh'
+[0.397s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/colcon-core/packages/dynamixel_hardware)
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/4ws_control' with build type 'ament_cmake'
+[0.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/drcl/Desktop/drcl/4ws_robot_ros2/src/4ws_control'
+[0.398s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.405s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control': AMENT_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 LD_LIBRARY_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control -- -j16 -l16
+[0.430s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control' returned '0': AMENT_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 LD_LIBRARY_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control -- -j16 -l16
+[0.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control': AMENT_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 LD_LIBRARY_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control
+[0.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[0.451s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control' for CMake module files
+[0.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control' returned '0': AMENT_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware:/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 LD_LIBRARY_PATH=/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control
+[0.452s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control' for CMake config files
+[0.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/bin'
+[0.453s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib/python3.10/site-packages'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/bin'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.ps1'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.dsv'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.sh'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.bash'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.zsh'
+[0.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[0.470s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(four_ws_control)
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control' for CMake module files
+[0.471s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control' for CMake config files
+[0.471s] Level 1:colcon.colcon_core.shell:create_environment_hook('four_ws_control', 'cmake_prefix_path')
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.ps1'
+[0.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.dsv'
+[0.473s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/hook/cmake_prefix_path.sh'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/bin'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib/pkgconfig/four_ws_control.pc'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib/python3.10/site-packages'
+[0.473s] Level 1:colcon.colcon_core.environment:checking '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/bin'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.ps1'
+[0.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.dsv'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.sh'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.bash'
+[0.475s] INFO:colcon.colcon_core.shell:Creating package script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.zsh'
+[0.475s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/colcon-core/packages/four_ws_control)
+[0.475s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.476s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.476s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[0.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.479s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.479s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.486s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.487s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/local_setup.ps1'
+[0.488s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/_local_setup_util_ps1.py'
+[0.489s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/setup.ps1'
+[0.490s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/local_setup.sh'
+[0.490s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/_local_setup_util_sh.py'
+[0.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/setup.sh'
+[0.491s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/local_setup.bash'
+[0.491s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/setup.bash'
+[0.492s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/local_setup.zsh'
+[0.492s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/drcl/Desktop/drcl/4ws_robot_ros2/install/setup.zsh'

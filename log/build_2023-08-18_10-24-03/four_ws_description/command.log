@@ -1,0 +1,20 @@
+Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description -- -j16 -l16
+Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description -- -j16 -l16
+Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description
+Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description

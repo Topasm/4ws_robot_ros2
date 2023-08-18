@@ -1,0 +1,50 @@
+[0.011s] Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware -- -j16 -l16
+[0.036s] [35m[1mConsolidate compiler generated dependencies of target dynamixel_hardware[0m
+[0.047s] [100%] Built target dynamixel_hardware
+[0.056s] Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --build /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware -- -j16 -l16
+[0.072s] Invoking command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware
+[0.076s] -- Install configuration: ""
+[0.076s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/dynamixel_hardware.xml
+[0.076s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/lib/libdynamixel_hardware.so
+[0.076s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/include
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/include/dynamixel_hardware
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/include/dynamixel_hardware/visiblity_control.h
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/include/dynamixel_hardware/dynamixel_hardware.hpp
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.sh
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/environment/library_path.dsv
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/ament_index/resource_index/package_run_dependencies/dynamixel_hardware
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/ament_index/resource_index/parent_prefix_path/dynamixel_hardware
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.sh
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.sh
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/environment/path.dsv
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.bash
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.sh
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.zsh
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/local_setup.dsv
+[0.077s] -- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.dsv
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/ament_index/resource_index/packages/dynamixel_hardware
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/dynamixel_hardware
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[0.077s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.078s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig.cmake
+[0.078s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/cmake/dynamixel_hardwareConfig-version.cmake
+[0.078s] -- Up-to-date: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/package.xml
+[0.080s] Invoked command in '/home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble FZF_DEFAULT_OPTS=
+    --color fg:-1,bg:-1,hl:196,fg+:254,bg+:239,hl+:040
+    --color info:226,prompt:226,pointer:196,marker:254,spinner:226
+    --preview 'file {}'
+    --preview-window down:1 /usr/bin/cmake --install /home/drcl/Desktop/drcl/4ws_robot_ros2/build/dynamixel_hardware

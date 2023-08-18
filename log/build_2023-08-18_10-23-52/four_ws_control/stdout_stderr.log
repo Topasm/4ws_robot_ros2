@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.3 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found rviz2: 11.2.6 (/opt/ros/humble/share/rviz2/cmake)
+-- Found ros2_control: 2.29.0 (/opt/ros/humble/share/ros2_control/cmake)
+-- Found ros2_controllers: 2.23.0 (/opt/ros/humble/share/ros2_controllers/cmake)
+-- Found dynamixel_hardware: 0.0.0 (/home/drcl/Desktop/drcl/4ws_robot_ros2/install/dynamixel_hardware/share/dynamixel_hardware/cmake)
+-- Found ament_lint_auto: 0.12.7 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_control
+-- Install configuration: ""
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control//scripts
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control//scripts/four_ws_control.py
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control//scripts/joystic_test.py
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control//launch
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control//launch/four_ws_control.launch.py
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib/four_ws_control/four_ws_control.py
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/lib/four_ws_control/four_ws_control.launch.py
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/ament_index/resource_index/package_run_dependencies/four_ws_control
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/ament_index/resource_index/parent_prefix_path/four_ws_control
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.sh
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/environment/ament_prefix_path.dsv
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/environment/path.sh
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/environment/path.dsv
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/local_setup.bash
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/local_setup.sh
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/local_setup.zsh
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/local_setup.dsv
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.dsv
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/ament_index/resource_index/packages/four_ws_control
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig.cmake
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/cmake/four_ws_controlConfig-version.cmake
+-- Installing: /home/drcl/Desktop/drcl/4ws_robot_ros2/install/four_ws_control/share/four_ws_control/package.xml
