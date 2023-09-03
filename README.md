@@ -27,5 +27,7 @@ pip install setuptools==58.2.0
 example launch code
 
 ros2 launch teleop_twist_joy teleop.launch.py joy_config:='rosbot_xbox_bluetooth' cmd_vel:=/diff_drive_controller/cmd_vel_unstamped
+
 sudo chmod a+rw /dev/ttyUSB0 
+
 source /usr/share/colcon_argcomplete/hook/colcon-argcomplete.zsh
