@@ -5,9 +5,7 @@ controller_manager:
     velocity_controller:
       type: velocity_controllers/JointGroupVelocityController
 
-    joint_trajectory_controller:
-      type: joint_trajectory_controller/JointTrajectoryController
-
+ 
     joint_state_broadcaster:
       type: joint_state_broadcaster/JointStateBroadcaster
 
@@ -17,14 +15,6 @@ controller_manager:
 
 
 velocity_controller:
-  ros__parameters:
-    joints:
-      - joint1
-      - joint2
-      - joint3
-      - joint4
-
-joint_trajectory_controller:
   ros__parameters:
     joints:
       - joint1

@@ -1,9 +1,0 @@
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/uninstall.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/four_ws_description_uninstall.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/test.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/edit_cache.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/rebuild_cache.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/list_install_components.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/install.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/install/local.dir
-/home/drcl/Desktop/drcl/4ws_robot_ros2/build/four_ws_description/CMakeFiles/install/strip.dir

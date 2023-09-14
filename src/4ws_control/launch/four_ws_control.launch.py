@@ -46,13 +46,6 @@ def generate_launch_description():
             output="screen",
         )
 
-    load_trajectory_controller = Node(
-            package="controller_manager",
-            executable="spawner",
-            arguments=["joint_trajectory_controller", "-c", "/controller_manager"],
-            output="screen",
-        )
-    
     load_position_controller = Node(
             package="controller_manager",
             executable="spawner",
@@ -98,7 +91,6 @@ def generate_launch_description():
         load_description,
         load_state_broadcaster,
         load_velocity_controller,
-        load_trajectory_controller,
         load_position_controller,
         load_statpub,
         four_ws_control_node

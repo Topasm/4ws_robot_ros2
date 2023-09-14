@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<robot name="four_ws" xmlns:xacro="http://www.ros.org/wiki/xacro">
-
-
-  <xacro:include filename="$(find four_ws_description)/urdf/four_ws.urdf" />
-  <xacro:include filename="$(find four_ws_description)/ros2_control/four_ws.ros2_control.xacro" />
-
-  <xacro:four_ws_ros2_control name="four_ws_ros2_control" />
-</robot>
