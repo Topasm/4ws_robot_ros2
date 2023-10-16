@@ -1,0 +1,8 @@
+build/
+install/
+log/
+src/build/
+src/install/
+src/log/
+src/mjbot_vision/__pycache__/
+src/mjbot_vision/vision/__pycache__/
